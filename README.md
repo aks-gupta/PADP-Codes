@@ -13,3 +13,9 @@ $ mpirun -np 4 ./name
 $ cc name.c -fopenmp
 
 $ ./a.out
+
+### Program 4
+
+$ gcc 4.c -fopenmp -lgd
+
+$ ./a.out input.png output.png
